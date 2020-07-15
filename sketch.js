@@ -41,11 +41,11 @@ function setup() {
  	World.add(world, ground);
 
 
-	 box1 = new box(400,650,250,10)
+	 box1 = new box(400,630,250,10)
 	 box2 = new box(280,600,10,100)
      box3 = new box(520,600,10,100)
 	 
-	 boxsupport=createSprite(400,655,255,15)
+	 boxsupport=createSprite(400,650,255,15)
 
 	Engine.run(engine);
   
